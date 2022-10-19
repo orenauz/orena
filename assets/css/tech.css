@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.tech_news_container {
+  margin-top: 15px;
+}
+
+.lastest_news {
+  background-image: url("../images/imgShort1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+
+  padding: 25px 25px;
+}
+.lastest_news .text {
+  z-index: 1;
+}
+.lastest_news .text a {
+  text-decoration: none;
+  color: #EDEDED;
+  opacity: 0.9;
+  transition: all 0.3s;
+  font-size: 1.4rem;
+  font-family: "Poppins", "sans-serif";
+  font-weight: 400;
+}
+.lastest_news .text a:hover {
+  opacity: 1;
+}
+.lastest_news .text p {
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-family: "Poppins", "sans-serif";
+  font-weight: 300;
+  opacity: 0.7;
+}
+.lastest_news .back_drop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5411764706);
+  border-radius: 5px;
+}
+
+.last_news {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.last_news .news_card {
+  width: 25%;
+  height: max-content;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+  margin: 15px;
+}
+.last_news .news_card .news_image img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.last_news .news_card .News_body {
+  padding: 20px 15px;
+}
+.last_news .news_card .News_body a {
+  text-decoration: none;
+  color: #292930;
+  font-family: "Poppins", "sans-serif";
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.last_news .news_card .News_body p {
+  color: #292930;
+  opacity: 0.8;
+  font-family: "Poppins", "sans-serif";
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.last_news .news_card .News_body span {
+  color: rgba(41, 41, 48, 0.6705882353);
+  font-family: "Poppins", "sans-serif";
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+
+  .lastest_news {
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: none;
+  }
+  .last_news .text a {
+    font-size: 0.3rem;
+  }
+  .last_news {
+    flex-wrap: wrap;
+  }
+  .last_news .news_card {
+    width: 90%;
+    margin: 15px auto;
+  }
+}
+
+/*# sourceMappingURL=tech.css.map */
