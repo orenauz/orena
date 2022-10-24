@@ -1,4 +1,4 @@
-# orena
+# Orena.uz
 
 
 <!-- TABLE OF CONTENTS -->
